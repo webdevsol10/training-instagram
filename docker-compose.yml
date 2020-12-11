@@ -1,0 +1,16 @@
+# Compose File Reference: https://docs.docker.com/compose/compose-file/
+version: '3.7'
+services:
+  # Docker Image: https://hub.docker.com/r/vinelab/nginx-php
+  app:
+    image: vinelab/nginx-php:7.4
+    ports:
+      - ${DOCKER_HOST_PHP_PORT:-8888}:80
+    volumes:
+      - ./:/code:cached
+  # Docker Image: https://hub.docker.com/_/rabbitmq
+#  rabbitmq:
+#    image: rabbitmq:3.7.13-management-alpine
+#    ports:
+#      - ${DOCKER_HOST_RABBITMQ_PORT:-5673}:5673
+#      - ${DOCKER_HOST_RABBITMQ_ADMIN_PORT:-15673}:15673
