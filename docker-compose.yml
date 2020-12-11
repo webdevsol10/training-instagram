@@ -9,8 +9,8 @@ services:
     volumes:
       - ./:/code:cached
   # Docker Image: https://hub.docker.com/_/rabbitmq
-#  rabbitmq:
-#    image: rabbitmq:3.7.13-management-alpine
-#    ports:
-#      - ${DOCKER_HOST_RABBITMQ_PORT:-5673}:5673
-#      - ${DOCKER_HOST_RABBITMQ_ADMIN_PORT:-15673}:15673
+  rabbitmq:
+    image: rabbitmq:3.7.13-management-alpine
+    ports:
+      - ${DOCKER_HOST_RABBITMQ_PORT:-5672}:5672
+      - ${DOCKER_HOST_RABBITMQ_ADMIN_PORT:-15672}:15672

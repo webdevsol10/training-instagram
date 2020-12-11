@@ -43,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607684852312</updated>
-      <workItem from="1607684853476" duration="8901000" />
+      <workItem from="1607684853476" duration="11482000" />
     </task>
     <servers />
   </component>
@@ -55,6 +55,10 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1325" y="260" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1080@0.0.2560.1080" timestamp="1607692570121" />
+    <state x="1190" y="299" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607701361175">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1190" y="299" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1607701361175" />
     <state x="1300" y="472" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1607687195393">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
@@ -71,17 +75,17 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1112" y="0" key="#com.jetbrains.php.refactoring.move.namespace.PhpMoveRelatedNamespacesDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1607689291312" />
-    <state x="1154" y="254" key="NewPhpClassDialog" timestamp="1607691889770">
+    <state x="1154" y="254" key="NewPhpClassDialog" timestamp="1607700970497">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1154" y="254" key="NewPhpClassDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1607691889770" />
+    <state x="1154" y="254" key="NewPhpClassDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1607700970497" />
     <state x="1021" y="176" key="SettingsEditor" timestamp="1607684947439">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1021" y="176" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1607684947439" />
-    <state x="1177" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1607693754171">
+    <state x="1177" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1607701167451">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1177" y="241" width="670" height="676" key="search.everywhere.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1607693754171" />
+    <state x="1177" y="241" width="670" height="676" key="search.everywhere.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1607701167451" />
   </component>
 </project>

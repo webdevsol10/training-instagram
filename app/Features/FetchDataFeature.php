@@ -10,6 +10,7 @@ use App\Data\Collections\MediaCollection;
 use App\Domains\Fetch\Jobs\FetchAccountJob;
 use App\Domains\Fetch\Jobs\FetchContentJob;
 use App\Domains\Transform\Jobs\ComposeInsightsModelJob;
+use App\Domains\RabbitMQ\Jobs\DispatchCleansedInsightsJob;
 
 class FetchDataFeature extends Feature
 {
@@ -40,7 +41,7 @@ class FetchDataFeature extends Feature
             'medias' => $content,
         ]);
 
-        // RabbitMQ
-        // Dispatch Insights to RBMQ
+        // Dispatch
+        $this->run(DispatchCleansedInsightsJob::class, compact('insights'));
     }
 }
